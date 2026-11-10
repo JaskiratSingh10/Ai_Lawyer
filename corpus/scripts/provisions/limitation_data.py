@@ -1,0 +1,700 @@
+"""
+Limitation statutory data module:
+- The Limitation Act, 1963 (Act No. 36 of 1963)
+  Substantive provisions (Sections 1-29) and Schedule Articles for
+  contracts, wages, refunds, arrears of rent, recovery of possession, and residuary remedies.
+"""
+
+DOCUMENTS = [
+    {
+        "id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "act_number": "Act No. 36 of 1963",
+        "jurisdiction": "Central (Union of India)",
+        "enactment_date": "1963-10-05",
+        "effective_date": "1964-01-01",
+        "effective_from": "1964-01-01",
+        "repealed_on": None,
+        "legal_status": "In Force",
+        "legal_status_notes": (
+            "Enacted on 5 October 1963. Commenced on 1 January 1964 vide Notification No. S.O. 3118 dated 29 October 1963. "
+            "Extended to Union Territory of Jammu and Kashmir and Union Territory of Ladakh by Act 34 of 2019 w.e.f. 31 October 2019. "
+            "Governs general periods of limitation, subject to Section 29(2) savings for special or local laws."
+        ),
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "ministry": "Ministry of Law and Justice, Legislative Department",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+    }
+]
+
+PROVISIONS = [
+    {
+        "id": "IND-FED-LIM-1963-SEC-001",
+        "parent_doc_id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "jurisdiction": "Central (Union of India)",
+        "section_or_rule_number": "Section 1",
+        "section_or_rule_title": "Short title, extent and commencement",
+        "chapter_or_part": "Part I: Preliminary",
+        "exact_text": (
+            "(1) This Act may be called the Limitation Act, 1963.\n"
+            "(2) It extends to the whole of India.\n"
+            "(3) It shall come into force on such date as the Central Government may, by notification in the Official Gazette, appoint."
+        ),
+        "effective_date": "1964-01-01",
+        "enactment_date": "1963-10-05",
+        "legal_status": "In Force",
+        "legal_status_notes": "Commenced 1 January 1964 (S.O. 3118). Extent amended by Act 34 of 2019.",
+        "version_as_of_date": "2026-11-09",
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+        "key_topics": ["short title", "extent", "commencement"],
+        "cross_references": ["S.O. 3118"]
+    },
+    {
+        "id": "IND-FED-LIM-1963-SEC-002",
+        "parent_doc_id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "jurisdiction": "Central (Union of India)",
+        "section_or_rule_number": "Section 2",
+        "section_or_rule_title": "Definitions",
+        "chapter_or_part": "Part I: Preliminary",
+        "exact_text": (
+            "In this Act, unless the context otherwise requires,—\n"
+            "(a) 'applicant' includes— (i) a petitioner; (ii) any person from or through whom an applicant derives his right to apply; (iii) any person whose estate is represented by the applicant as executor, administrator or other representative;\n"
+            "(b) 'application' includes a petition;\n"
+            "(e) 'defendant' includes— (i) any person from or through whom a defendant derives his liability to be sued; (ii) any person whose estate is represented by the defendant as executor, administrator or other representative;\n"
+            "(j) 'period of limitation' means the period of limitation prescribed for any suit, appeal or application by the Schedule, and 'prescribed period' means the period of limitation computed in accordance with the provisions of this Act;\n"
+            "(k) 'plaintiff' includes— (i) any person from or through whom a plaintiff derives his right to sue; (ii) any person whose estate is represented by the plaintiff as executor, administrator or other representative;\n"
+            "(l) 'suit' does not include an appeal or an application;\n"
+            "(m) 'tort' means a civil wrong which is not exclusively the breach of a contract or the breach of a trust."
+        ),
+        "effective_date": "1964-01-01",
+        "enactment_date": "1963-10-05",
+        "legal_status": "In Force",
+        "legal_status_notes": "In force since 1 January 1964.",
+        "version_as_of_date": "2026-11-09",
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+        "key_topics": ["definitions", "applicant", "application", "period of limitation", "prescribed period", "suit", "tort"],
+        "cross_references": ["Section 3", "The Schedule"]
+    },
+    {
+        "id": "IND-FED-LIM-1963-SEC-003",
+        "parent_doc_id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "jurisdiction": "Central (Union of India)",
+        "section_or_rule_number": "Section 3",
+        "section_or_rule_title": "Bar of limitation",
+        "chapter_or_part": "Part II: Limitation of Suits, Appeals and Applications",
+        "exact_text": (
+            "(1) Subject to the provisions contained in sections 4 to 24 (inclusive), every suit instituted, appeal preferred, "
+            "and application made after the prescribed period shall be dismissed, although limitation has not been set up as a defence.\n"
+            "(2) For the purposes of this Act,—\n"
+            "(a) a suit is instituted—\n"
+            "  (i) in an ordinary case, when the plaint is presented to the proper officer;\n"
+            "  (ii) in the case of a pauper, when his application for leave to sue as a pauper is made; and\n"
+            "  (iii) in the case of a claim against a company which is being wound up by the court, when the claimant first sends in his claim to the official liquidator;\n"
+            "(b) any claim by way of a set off or a counter claim, shall be treated as a separate suit and shall be deemed to have been instituted—\n"
+            "  (i) in the case of a set off, on the same date as the suit in which the set off is pleaded;\n"
+            "  (ii) in the case of a counter claim, on the date on which the counter claim is made in court;\n"
+            "(c) an application by notice of motion in a High Court is made when the application is presented to the proper officer of that court."
+        ),
+        "effective_date": "1964-01-01",
+        "enactment_date": "1963-10-05",
+        "legal_status": "In Force",
+        "legal_status_notes": "Mandatory duty of court to dismiss time-barred claims sua sponte.",
+        "version_as_of_date": "2026-11-09",
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+        "key_topics": ["bar of limitation", "mandatory dismissal", "sua sponte", "institution of suit", "counter claim", "set off"],
+        "cross_references": ["Section 4", "Section 5", "Section 29"]
+    },
+    {
+        "id": "IND-FED-LIM-1963-SEC-004",
+        "parent_doc_id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "jurisdiction": "Central (Union of India)",
+        "section_or_rule_number": "Section 4",
+        "section_or_rule_title": "Expiry of prescribed period when court is closed",
+        "chapter_or_part": "Part II: Limitation of Suits, Appeals and Applications",
+        "exact_text": (
+            "Where the prescribed period for any suit, appeal or application expires on a day when the court is closed, "
+            "the suit, appeal or application may be instituted, preferred or made on the day that the court re-opens.\n"
+            "Explanation.—A court shall be deemed to be closed on any day within the meaning of this section if during any part "
+            "of its normal working hours it remains closed on that day."
+        ),
+        "effective_date": "1964-01-01",
+        "enactment_date": "1963-10-05",
+        "legal_status": "In Force",
+        "legal_status_notes": "Protects litigant when last day of limitation falls on court holiday or weekend.",
+        "version_as_of_date": "2026-11-09",
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+        "key_topics": ["court closed", "re-opening day", "court holiday", "expiry of limitation"],
+        "cross_references": ["Section 3", "Section 5"]
+    },
+    {
+        "id": "IND-FED-LIM-1963-SEC-005",
+        "parent_doc_id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "jurisdiction": "Central (Union of India)",
+        "section_or_rule_number": "Section 5",
+        "section_or_rule_title": "Extension of prescribed period in certain cases (Condonation of delay)",
+        "chapter_or_part": "Part II: Limitation of Suits, Appeals and Applications",
+        "exact_text": (
+            "Any appeal or any application, other than an application under any of the provisions of Order XXI of the Code of Civil Procedure, 1908, "
+            "may be admitted after the prescribed period, if the appellant or the applicant satisfies the court that he had sufficient cause for "
+            "not preferring the appeal or making the application within such period.\n"
+            "Explanation.—The fact that the appellant or the applicant was misled by any order, practice or judgment of the High Court in ascertaining "
+            "or computing the prescribed period may be sufficient cause within the meaning of this section."
+        ),
+        "effective_date": "1964-01-01",
+        "enactment_date": "1963-10-05",
+        "legal_status": "In Force",
+        "legal_status_notes": "CRUCIAL RAG DISTINCTION: Section 5 applies ONLY to appeals and applications. It DOES NOT APPLY to original suits.",
+        "version_as_of_date": "2026-11-09",
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+        "key_topics": ["condonation of delay", "sufficient cause", "appeals", "applications", "inapplicable to suits", "Order XXI exclusion"],
+        "cross_references": ["Section 3", "Section 14"]
+    },
+    {
+        "id": "IND-FED-LIM-1963-SEC-006",
+        "parent_doc_id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "jurisdiction": "Central (Union of India)",
+        "section_or_rule_number": "Section 6",
+        "section_or_rule_title": "Legal disability",
+        "chapter_or_part": "Part II: Limitation of Suits, Appeals and Applications",
+        "exact_text": (
+            "(1) Where a person entitled to institute a suit or make an application for the execution of a decree is, at the time from which the prescribed period is to be reckoned, a minor or insane, or an idiot, he may institute the suit or make the application within the same period after the disability has ceased, as would otherwise have been allowed from the time specified therefor in the third column of the Schedule.\n"
+            "(2) Where such person is, at the time from which the prescribed period is to be reckoned, affected by two such disabilities, or where, before his disability has ceased, he is affected by another disability, he may institute the suit or make the application within the same period after both disabilities have ceased, as would otherwise have been allowed from the time so specified.\n"
+            "(3) Where the disability continues up to the death of that person, his legal representative may institute the suit or make the application within the same period after the death, as would otherwise have been allowed from the time so specified."
+        ),
+        "effective_date": "1964-01-01",
+        "enactment_date": "1963-10-05",
+        "legal_status": "In Force",
+        "legal_status_notes": "Suspends limitation during legal disability (minority, insanity, idiocy).",
+        "version_as_of_date": "2026-11-09",
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+        "key_topics": ["legal disability", "minority", "insanity", "idiot", "legal representative", "cessation of disability"],
+        "cross_references": ["Section 7", "Section 8"]
+    },
+    {
+        "id": "IND-FED-LIM-1963-SEC-012",
+        "parent_doc_id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "jurisdiction": "Central (Union of India)",
+        "section_or_rule_number": "Section 12",
+        "section_or_rule_title": "Exclusion of time in legal proceedings",
+        "chapter_or_part": "Part III: Computation of Period of Limitation",
+        "exact_text": (
+            "(1) In computing the period of limitation for any suit, appeal or application, the day from which such period is to be reckoned, shall be excluded.\n"
+            "(2) In computing the period of limitation for an appeal or an application for leave to appeal or for revision or for review of a judgment, the day on which the judgment complained of was pronounced and the time requisite for obtaining a copy of the decree, sentence or order appealed from or sought to be revised or reviewed shall be excluded.\n"
+            "(3) Where a decree or order is appealed from or sought to be revised or reviewed, or where an application is made for leave to appeal from a decree or order, the time requisite for obtaining a copy of the judgment shall also be excluded.\n"
+            "(4) In computing the period of limitation for an application to set aside an award, the time requisite for obtaining a copy of the award shall be excluded.\n"
+            "Explanation.—In computing under this section the time requisite for obtaining a copy of a decree or an order, any time taken by the court to prepare the decree or order before an application for a copy thereof is made shall not be excluded."
+        ),
+        "effective_date": "1964-01-01",
+        "enactment_date": "1963-10-05",
+        "legal_status": "In Force",
+        "legal_status_notes": "Excludes date of accrual and time requisite for certified copies.",
+        "version_as_of_date": "2026-11-09",
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+        "key_topics": ["exclusion of time", "day of accrual excluded", "time requisite for copy", "certified copy", "appeals"],
+        "cross_references": ["Section 3", "Section 5"]
+    },
+    {
+        "id": "IND-FED-LIM-1963-SEC-014",
+        "parent_doc_id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "jurisdiction": "Central (Union of India)",
+        "section_or_rule_number": "Section 14",
+        "section_or_rule_title": "Exclusion of time of proceeding bona fide in court without jurisdiction",
+        "chapter_or_part": "Part III: Computation of Period of Limitation",
+        "exact_text": (
+            "(1) In computing the period of limitation for any suit the time during which the plaintiff has been prosecuting with due diligence another civil proceeding, whether in a court of first instance or of appeal or revision, against the defendant shall be excluded, where the proceeding relates to the same matter in issue and is prosecuted in good faith in a court which, from defect of jurisdiction or other cause of a like nature, is unable to entertain it.\n"
+            "(2) In computing the period of limitation for any application, the time during which the applicant has been prosecuting with due diligence another civil proceeding, whether in a court of first instance or of appeal or revision, against the same party for the same relief shall be excluded, where such proceeding is prosecuted in good faith in a court which, from defect of jurisdiction or other cause of a like nature, is unable to entertain it."
+        ),
+        "effective_date": "1964-01-01",
+        "enactment_date": "1963-10-05",
+        "legal_status": "In Force",
+        "legal_status_notes": "Protects plaintiffs prosecuting claims in wrong forum in good faith.",
+        "version_as_of_date": "2026-11-09",
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+        "key_topics": ["exclusion of time", "bona fide proceeding", "defect of jurisdiction", "good faith", "due diligence"],
+        "cross_references": ["Section 3", "Section 12"]
+    },
+    {
+        "id": "IND-FED-LIM-1963-SEC-017",
+        "parent_doc_id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "jurisdiction": "Central (Union of India)",
+        "section_or_rule_number": "Section 17",
+        "section_or_rule_title": "Effect of fraud or mistake",
+        "chapter_or_part": "Part III: Computation of Period of Limitation",
+        "exact_text": (
+            "(1) Where, in the case of any suit or application for which a period of limitation is prescribed by this Act,—\n"
+            "(a) the suit or application is based upon the fraud of the defendant or respondent or his agent; or\n"
+            "(b) the knowledge of the right or title on which a suit or application is founded is concealed by the fraud of any such person as aforesaid; or\n"
+            "(c) the suit or application is for relief from the consequences of a mistake; or\n"
+            "(d) where any document necessary to establish the right of the plaintiff or applicant has been fraudulently concealed from him,\n"
+            "the period of limitation shall not begin to run until the plaintiff or applicant has discovered the fraud or the mistake or could, with reasonable diligence, have discovered it; or in the case of a concealed document, until the plaintiff or the applicant first had the means of producing the concealed document or compelling its production."
+        ),
+        "effective_date": "1964-01-01",
+        "enactment_date": "1963-10-05",
+        "legal_status": "In Force",
+        "legal_status_notes": "Limitation runs from date of discovery of fraud or mistake.",
+        "version_as_of_date": "2026-11-09",
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+        "key_topics": ["fraud", "mistake", "discovery of fraud", "concealment of document", "commencement of limitation"],
+        "cross_references": ["Section 3", "Section 18"]
+    },
+    {
+        "id": "IND-FED-LIM-1963-SEC-018",
+        "parent_doc_id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "jurisdiction": "Central (Union of India)",
+        "section_or_rule_number": "Section 18",
+        "section_or_rule_title": "Effect of acknowledgment in writing",
+        "chapter_or_part": "Part III: Computation of Period of Limitation",
+        "exact_text": (
+            "(1) Where, before the expiration of the prescribed period for a suit or application in respect of any property or right, "
+            "an acknowledgment of liability in respect of such property or right has been made in writing signed by the party against "
+            "whom such property or right is claimed, or by any person through whom he derives his title or liability, a fresh period "
+            "of limitation shall be computed from the time when the acknowledgment was so signed.\n"
+            "(2) Where the writing containing the acknowledgment is undated, oral evidence may be given of the time when it was signed; "
+            "but subject to the provisions of the Indian Evidence Act, 1872, oral evidence of its contents shall not be received.\n"
+            "Explanation.—For the purposes of this section,—\n"
+            "(a) an acknowledgment may be sufficient though it omits to specify the exact nature of the property or right, or avers that the time for payment, delivery, performance or satisfaction has not yet come or is accompanied by a refusal to pay, deliver, perform or satisfy, or is coupled with a claim to set-off, or is addressed to a person other than a person entitled to the property or right;\n"
+            "(b) the word 'signed' means signed either personally or by an agent duly authorised in this behalf."
+        ),
+        "effective_date": "1964-01-01",
+        "enactment_date": "1963-10-05",
+        "legal_status": "In Force",
+        "legal_status_notes": "CRITICAL DEBT RECOVERY PROVISION: Written acknowledgment resets the full 3-year limitation clock, provided made before expiry.",
+        "version_as_of_date": "2026-11-09",
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+        "key_topics": ["acknowledgment in writing", "fresh limitation period", "signed acknowledgment", "reset clock", "unpaid wages acknowledgment", "debt acknowledgment"],
+        "cross_references": ["Section 19", "Article 7", "Article 19", "Article 52"]
+    },
+    {
+        "id": "IND-FED-LIM-1963-SEC-019",
+        "parent_doc_id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "jurisdiction": "Central (Union of India)",
+        "section_or_rule_number": "Section 19",
+        "section_or_rule_title": "Effect of payment on account of debt or of interest on legacy",
+        "chapter_or_part": "Part III: Computation of Period of Limitation",
+        "exact_text": (
+            "Where payment on account of a debt or of interest on a legacy is made before the expiration of the prescribed period "
+            "by the person liable to pay the debt or legacy or by his agent duly authorised in this behalf, a fresh period of "
+            "limitation shall be computed from the time when the payment was made:\n"
+            "Provided that, save in the case of payment of interest made before the 1st day of January, 1928, an acknowledgment of the payment "
+            "appears in the handwriting of, or in a writing signed by, the person making the payment."
+        ),
+        "effective_date": "1964-01-01",
+        "enactment_date": "1963-10-05",
+        "legal_status": "In Force",
+        "legal_status_notes": "Part payment resets limitation period if evidenced in writing.",
+        "version_as_of_date": "2026-11-09",
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+        "key_topics": ["part payment", "debt", "interest", "fresh period of limitation"],
+        "cross_references": ["Section 18"]
+    },
+    {
+        "id": "IND-FED-LIM-1963-SEC-029",
+        "parent_doc_id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "jurisdiction": "Central (Union of India)",
+        "section_or_rule_number": "Section 29",
+        "section_or_rule_title": "Savings (Special and Local Laws)",
+        "chapter_or_part": "Part V: Miscellaneous",
+        "exact_text": (
+            "(1) Nothing in this Act shall affect section 25 of the Indian Contract Act, 1872.\n"
+            "(2) Where any special or local law prescribes for any suit, appeal or application a period of limitation different from the period prescribed by the Schedule, the provisions of section 3 shall apply as if such period were the period prescribed by the Schedule and for the purpose of determining any period of limitation prescribed for any suit, appeal or application by any special or local law, the provisions contained in sections 4 to 24 (inclusive) shall apply only in so far as, and to the extent to which, they are not expressly excluded by such special or local law.\n"
+            "(3) Save as otherwise provided in any law for the time being in force with respect to marriage and divorce, nothing in this Act shall apply to any suit or other proceeding under any such law.\n"
+            "(4) Sections 25 and 26 and the definition of the expression 'easement' in section 2 shall not apply to cases arising in territories to which the Indian Easements Act, 1882 may for the time being extend."
+        ),
+        "effective_date": "1964-01-01",
+        "enactment_date": "1963-10-05",
+        "legal_status": "In Force",
+        "legal_status_notes": (
+            "FOUNDATIONAL RAG RULE: Section 29(2) establishes that special statutes (e.g. Consumer Protection Act 2019 Section 69, "
+            "Payment of Wages Act 1936 Section 15, Code on Wages 2019 Section 45, State Rent Acts) override the Schedule periods "
+            "of the Limitation Act, 1963."
+        ),
+        "version_as_of_date": "2026-11-09",
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+        "key_topics": ["savings", "special law", "local law", "section 29(2)", "interplay with special acts", "CPA limitation"],
+        "cross_references": ["IND-FED-CPA-2019-SEC-069", "Section 3", "Section 5"]
+    },
+
+    # -----------------------------------------------------------------------------------------------------------------
+    # The Schedule: Relevant Articles for Wage, Refund, Tenancy, and Contract Claims
+    # -----------------------------------------------------------------------------------------------------------------
+    {
+        "id": "IND-FED-LIM-1963-ART-007",
+        "parent_doc_id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "jurisdiction": "Central (Union of India)",
+        "section_or_rule_number": "Article 7",
+        "section_or_rule_title": "Suits relating to contracts: Wages",
+        "chapter_or_part": "The Schedule: First Division - Suits: Part II - Suits relating to contracts",
+        "exact_text": (
+            "Description of suit: For wages in the case of any other person [not covered by Art. 6 for seamen/workmen].\n"
+            "Period of limitation: Three years.\n"
+            "Time from which period begins to run: When the wages accrue due."
+        ),
+        "effective_date": "1964-01-01",
+        "enactment_date": "1963-10-05",
+        "legal_status": "In Force",
+        "legal_status_notes": "Standard civil limitation period for unpaid salary and wage arrears: 3 years from due date.",
+        "version_as_of_date": "2026-11-09",
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+        "key_topics": ["wages limitation", "three years", "salary recovery", "when wages accrue due"],
+        "cross_references": ["IND-FED-COW-2019-SEC-017", "IND-FED-COW-2019-SEC-045", "Article 113"]
+    },
+    {
+        "id": "IND-FED-LIM-1963-ART-008",
+        "parent_doc_id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "jurisdiction": "Central (Union of India)",
+        "section_or_rule_number": "Article 8",
+        "section_or_rule_title": "Suits relating to contracts: Food or drink",
+        "chapter_or_part": "The Schedule: First Division - Suits: Part II - Suits relating to contracts",
+        "exact_text": (
+            "Description of suit: For the price of food or drink sold by the keeper of a hotel, tavern or lodging-house.\n"
+            "Period of limitation: Three years.\n"
+            "Time from which period begins to run: When the food or drink is delivered."
+        ),
+        "effective_date": "1964-01-01",
+        "enactment_date": "1963-10-05",
+        "legal_status": "In Force",
+        "legal_status_notes": "In force since 1 January 1964.",
+        "version_as_of_date": "2026-11-09",
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+        "key_topics": ["hotel dues", "lodging house", "three years"],
+        "cross_references": ["Article 55"]
+    },
+    {
+        "id": "IND-FED-LIM-1963-ART-019",
+        "parent_doc_id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "jurisdiction": "Central (Union of India)",
+        "section_or_rule_number": "Article 19",
+        "section_or_rule_title": "Suits relating to contracts: Money lent",
+        "chapter_or_part": "The Schedule: First Division - Suits: Part II - Suits relating to contracts",
+        "exact_text": (
+            "Description of suit: For money payable for money lent.\n"
+            "Period of limitation: Three years.\n"
+            "Time from which period begins to run: When the loan is made."
+        ),
+        "effective_date": "1964-01-01",
+        "enactment_date": "1963-10-05",
+        "legal_status": "In Force",
+        "legal_status_notes": "Standard limitation for recovery of loan: 3 years.",
+        "version_as_of_date": "2026-11-09",
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+        "key_topics": ["money lent", "loan recovery", "three years", "date loan is made"],
+        "cross_references": ["Section 18", "Section 19"]
+    },
+    {
+        "id": "IND-FED-LIM-1963-ART-022",
+        "parent_doc_id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "jurisdiction": "Central (Union of India)",
+        "section_or_rule_number": "Article 22",
+        "section_or_rule_title": "Suits relating to contracts: Money deposited payable on demand",
+        "chapter_or_part": "The Schedule: First Division - Suits: Part II - Suits relating to contracts",
+        "exact_text": (
+            "Description of suit: For money deposited under an agreement that it shall be payable on demand, including money of a customer in the hands of his banker so payable.\n"
+            "Period of limitation: Three years.\n"
+            "Time from which period begins to run: When the demand is made."
+        ),
+        "effective_date": "1964-01-01",
+        "enactment_date": "1963-10-05",
+        "legal_status": "In Force",
+        "legal_status_notes": "CRITICAL TENANCY/SECURITY DEPOSIT PROVISION: Limitation begins only WHEN THE DEMAND IS MADE for refund of security deposit.",
+        "version_as_of_date": "2026-11-09",
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+        "key_topics": ["security deposit recovery", "money deposited", "payable on demand", "three years from demand"],
+        "cross_references": ["IND-FED-TPA-1882-SEC-108", "IND-TN-TNRRRLTA-2017-SEC-011", "Article 24"]
+    },
+    {
+        "id": "IND-FED-LIM-1963-ART-024",
+        "parent_doc_id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "jurisdiction": "Central (Union of India)",
+        "section_or_rule_number": "Article 24",
+        "section_or_rule_title": "Suits relating to contracts: Money received for plaintiff's use (Refund)",
+        "chapter_or_part": "The Schedule: First Division - Suits: Part II - Suits relating to contracts",
+        "exact_text": (
+            "Description of suit: For money payable by the defendant to the plaintiff for money received by the defendant, for the plaintiff's use.\n"
+            "Period of limitation: Three years.\n"
+            "Time from which period begins to run: When the money is received."
+        ),
+        "effective_date": "1964-01-01",
+        "enactment_date": "1963-10-05",
+        "legal_status": "In Force",
+        "legal_status_notes": "Action for money had and received / excess deductions / refund of overpayment.",
+        "version_as_of_date": "2026-11-09",
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+        "key_topics": ["money had and received", "refund", "excess deduction", "three years from receipt"],
+        "cross_references": ["Article 47", "Article 113"]
+    },
+    {
+        "id": "IND-FED-LIM-1963-ART-047",
+        "parent_doc_id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "jurisdiction": "Central (Union of India)",
+        "section_or_rule_number": "Article 47",
+        "section_or_rule_title": "Suits relating to contracts: Failure of consideration (Refund on breach)",
+        "chapter_or_part": "The Schedule: First Division - Suits: Part II - Suits relating to contracts",
+        "exact_text": (
+            "Description of suit: For money paid upon an existing consideration which afterwards fails.\n"
+            "Period of limitation: Three years.\n"
+            "Time from which period begins to run: The date of the failure."
+        ),
+        "effective_date": "1964-01-01",
+        "enactment_date": "1963-10-05",
+        "legal_status": "In Force",
+        "legal_status_notes": "Standard civil limitation for refund of price when goods/services fail: 3 years from failure.",
+        "version_as_of_date": "2026-11-09",
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+        "key_topics": ["failure of consideration", "refund of advance", "cancelled service", "three years from failure"],
+        "cross_references": ["Article 24", "Article 55", "IND-FED-CPA-2019-SEC-069"]
+    },
+    {
+        "id": "IND-FED-LIM-1963-ART-052",
+        "parent_doc_id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "jurisdiction": "Central (Union of India)",
+        "section_or_rule_number": "Article 52",
+        "section_or_rule_title": "Suits relating to contracts: Arrears of rent",
+        "chapter_or_part": "The Schedule: First Division - Suits: Part II - Suits relating to contracts",
+        "exact_text": (
+            "Description of suit: For arrears of rent.\n"
+            "Period of limitation: Three years.\n"
+            "Time from which period begins to run: When the arrears become due."
+        ),
+        "effective_date": "1964-01-01",
+        "enactment_date": "1963-10-05",
+        "legal_status": "In Force",
+        "legal_status_notes": "CRITICAL RENT LAW LIMITATION: Arrears older than 3 years are legally time-barred from recovery in court.",
+        "version_as_of_date": "2026-11-09",
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+        "key_topics": ["arrears of rent", "three years limitation", "when arrears become due", "time-barred rent"],
+        "cross_references": ["IND-FED-TPA-1882-SEC-108", "IND-DL-DRCA-1958-SEC-014", "IND-MH-MRCA-1999-SEC-015"]
+    },
+    {
+        "id": "IND-FED-LIM-1963-ART-055",
+        "parent_doc_id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "jurisdiction": "Central (Union of India)",
+        "section_or_rule_number": "Article 55",
+        "section_or_rule_title": "Suits relating to contracts: Breach of contract",
+        "chapter_or_part": "The Schedule: First Division - Suits: Part II - Suits relating to contracts",
+        "exact_text": (
+            "Description of suit: For compensation for the breach of any contract, express or implied not herein specially provided for.\n"
+            "Period of limitation: Three years.\n"
+            "Time from which period begins to run: When the contract is broken or (where there are successive breaches) when the breach in respect of which the suit is instituted occurs or (where the breach is continuing) when it ceases."
+        ),
+        "effective_date": "1964-01-01",
+        "enactment_date": "1963-10-05",
+        "legal_status": "In Force",
+        "legal_status_notes": "Residuary limitation for general breach of contract (employment contracts, leases, commercial terms): 3 years.",
+        "version_as_of_date": "2026-11-09",
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+        "key_topics": ["breach of contract", "compensation", "three years", "continuing breach", "successive breaches"],
+        "cross_references": ["Article 7", "Article 24", "Article 52", "Article 113"]
+    },
+    {
+        "id": "IND-FED-LIM-1963-ART-066",
+        "parent_doc_id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "jurisdiction": "Central (Union of India)",
+        "section_or_rule_number": "Article 66",
+        "section_or_rule_title": "Suits relating to immovable property: Forfeiture or breach of condition",
+        "chapter_or_part": "The Schedule: First Division - Suits: Part V - Suits relating to immovable property",
+        "exact_text": (
+            "Description of suit: For possession of immovable property the plaintiff has become entitled to by reason of any forfeiture or breach of condition.\n"
+            "Period of limitation: Twelve years.\n"
+            "Time from which period begins to run: When the forfeiture is incurred or the condition is broken."
+        ),
+        "effective_date": "1964-01-01",
+        "enactment_date": "1963-10-05",
+        "legal_status": "In Force",
+        "legal_status_notes": "12-year limitation for recovery of property upon forfeiture of tenancy.",
+        "version_as_of_date": "2026-11-09",
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+        "key_topics": ["immovable property", "possession", "forfeiture", "breach of condition", "twelve years"],
+        "cross_references": ["IND-FED-TPA-1882-SEC-111", "Article 67"]
+    },
+    {
+        "id": "IND-FED-LIM-1963-ART-067",
+        "parent_doc_id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "jurisdiction": "Central (Union of India)",
+        "section_or_rule_number": "Article 67",
+        "section_or_rule_title": "Suits relating to immovable property: Recovery of possession from tenant",
+        "chapter_or_part": "The Schedule: First Division - Suits: Part V - Suits relating to immovable property",
+        "exact_text": (
+            "Description of suit: By a landlord to recover possession from a tenant.\n"
+            "Period of limitation: Twelve years.\n"
+            "Time from which period begins to run: When the tenancy is determined."
+        ),
+        "effective_date": "1964-01-01",
+        "enactment_date": "1963-10-05",
+        "legal_status": "In Force",
+        "legal_status_notes": "PRIMARY TENANCY EVICTION LIMITATION: 12 years computed from the date tenancy is determined (e.g. by notice to quit or lease expiry).",
+        "version_as_of_date": "2026-11-09",
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+        "key_topics": ["landlord eviction suit", "recover possession from tenant", "twelve years", "determination of tenancy"],
+        "cross_references": ["IND-FED-TPA-1882-SEC-106", "IND-FED-TPA-1882-SEC-111", "Article 66"]
+    },
+    {
+        "id": "IND-FED-LIM-1963-ART-113",
+        "parent_doc_id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "jurisdiction": "Central (Union of India)",
+        "section_or_rule_number": "Article 113",
+        "section_or_rule_title": "Suits for which there is no prescribed period (Residuary Article for Suits)",
+        "chapter_or_part": "The Schedule: First Division - Suits: Part X - Suits for which there is no prescribed period",
+        "exact_text": (
+            "Description of suit: Any suit for which no period of limitation is provided elsewhere in this Schedule.\n"
+            "Period of limitation: Three years.\n"
+            "Time from which period begins to run: When the right to sue accrues."
+        ),
+        "effective_date": "1964-01-01",
+        "enactment_date": "1963-10-05",
+        "legal_status": "In Force",
+        "legal_status_notes": "Omnibus residuary clause for all civil suits: 3 years from date right to sue accrues.",
+        "version_as_of_date": "2026-11-09",
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+        "key_topics": ["residuary suit", "no prescribed period", "three years", "right to sue accrues"],
+        "cross_references": ["Section 3", "Article 55", "Article 137"]
+    },
+    {
+        "id": "IND-FED-LIM-1963-ART-137",
+        "parent_doc_id": "IND-FED-LIM-1963",
+        "law_title": "The Limitation Act, 1963",
+        "short_title": "Limitation Act, 1963",
+        "act_or_rule_type": "Central Act",
+        "jurisdiction": "Central (Union of India)",
+        "section_or_rule_number": "Article 137",
+        "section_or_rule_title": "Miscellaneous applications: Residuary Article for Applications",
+        "chapter_or_part": "The Schedule: Third Division - Applications: Part II - Other applications",
+        "exact_text": (
+            "Description of application: Any other application for which no period of limitation is provided elsewhere in this division.\n"
+            "Period of limitation: Three years.\n"
+            "Time from which period begins to run: When the right to apply accrues."
+        ),
+        "effective_date": "1964-01-01",
+        "enactment_date": "1963-10-05",
+        "legal_status": "In Force",
+        "legal_status_notes": "Applies to statutory applications to civil courts/tribunals where no specific period is prescribed (e.g. Arbitration s. 11, recovery applications).",
+        "version_as_of_date": "2026-11-09",
+        "official_source_url": "https://www.indiacode.nic.in/handle/123456789/1566",
+        "retrieval_date": "2026-11-09",
+        "scope_category": "Limitation",
+        "key_topics": ["residuary application", "three years", "right to apply accrues"],
+        "cross_references": ["Section 5", "Article 113"]
+    }
+]
+
+for _p in PROVISIONS:
+    _p.setdefault("effective_from", _p.get("effective_date", "1964-01-01"))
+    _p.setdefault("repealed_on", None)
+

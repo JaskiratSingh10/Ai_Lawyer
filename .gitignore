@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest & caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor & IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment & credentials
+.env
+.env.*
+*.key
+*.pem
+
+# Local runtime state
+case.json
